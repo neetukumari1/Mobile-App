@@ -4,7 +4,7 @@
   position: absolute;
   left: 0;
   right: 0;
-  top: 50%;
+  top: 35%;
   transform: translateY(-50%);
 }
 
@@ -24,4 +24,18 @@
 
 #container a {
   text-decoration: none;
+}
+
+table {
+  width: 100%;
+}
+
+.mat-header-cell {
+  flex-direction: column;
+  justify-content: center;
+}
+
+.mat-cell {
+  text-align: center;
+  justify-content:center;
 }
